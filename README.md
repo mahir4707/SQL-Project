@@ -1,47 +1,36 @@
-📊 Sales Orders Analysis Using SQL (PostgreSQL)
-This project is all about analyzing a company's order data using SQL in PostgreSQL. The goal was to turn raw sales data into meaningful business insights that can help in decision-making.
+# 📊 Sales Orders Analysis Using SQL (PostgreSQL)
 
-🔍 What I Did:
-Cleaned and structured the data into three tables: orders, customers, and products.
+This project is focused on analyzing a company's sales order data using SQL. It demonstrates how structured queries can uncover key business insights from raw data.
 
-Imported the data into pgAdmin (PostgreSQL) for querying.
+---
 
-Wrote 20+ business-driven SQL queries ranging from simple summaries to complex window functions.
+## 🔍 Project Overview
 
-Covered real-world business questions like:
+- Transformed a flat dataset into **normalized relational tables**: `orders`, `customers`, and `products`
+- Loaded the data into **PostgreSQL using pgAdmin**
+- Answered **20+ real-world business questions** using SQL
+- Covered everything from basic aggregations to advanced window functions and CTEs
+- Designed queries that help businesses make smarter decisions, like:
+  - Which products are most profitable?
+  - Who are the top customers by revenue?
+  - What's the average shipping delay?
+  - How does revenue trend month over month?
 
-Who are the top customers?
+---
 
-Which products or regions bring in the most revenue?
+## 🧱 Tech Stack
 
-How are sales trending month by month?
+- **PostgreSQL**
+- **pgAdmin**
+- **SQL** (Joins, Aggregates, CTEs, Window Functions, Date Functions)
 
-What’s the average shipping delay?
+---
 
-Also included questions ideal for dashboards and data visualization tools like Power BI or Tableau.
+## 📁 Files Included
 
-🧱 Tech Stack:
-PostgreSQL
+- `schema.sql` – Table creation scripts
+- `business_queries.sql` – SQL queries for business questions
+- `ER_diagram.png` – Entity Relationship Diagram of the database
+- `SQL_Project_Business_Questions.pdf` – List of all questions asked and answered
 
-pgAdmin
-
-SQL (window functions, joins, date functions, CTEs, etc.)
-
-💡 Why This Project Matters:
-It shows how data analysts can extract powerful insights from simple order data using only SQL. Whether it's optimizing profit, identifying top products, or understanding customer behavior — SQL helps answer real business questions.
-
-📁 Files Included:
-SQL queries for all business questions
-
-ER diagram
-
-Project schema and table structure
-
-PDF with all business questions
-
-🚀 How to Use:
-Clone this repo
-
-Use the SQL scripts to create the schema in PostgreSQL
-
-Run the queries in pgAdmin to explore the insights
+---
